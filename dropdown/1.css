@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/*
+ CSS created with CSE HTML Validator
+*/
+menujohanes{position: relative;
+width: 1180px;
+margin: auto;
+background: rgb(79,99,87);
+background: -moz-linear-gradient(top, rgba(185, 13, 13,1) 0%, rgba(122, 5, 5,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(185, 13, 13,1)), color-stop(100%,rgba(122, 5, 5,1)));
+background: -webkit-linear-gradient(top, rgba(185, 13, 13,1) 0%,rgba(122, 5, 5,1) 100%);
+background: -o-linear-gradient(top, rgba(185, 13, 13,1) 0%,rgba(122, 5, 5,1) 100%);
+background: -ms-linear-gradient(top, rgba(185, 13, 13,1) 0%,rgba(122, 5, 5,1) 100%); }
+ul.dark_menu {
+margin:auto;
+list-style: none;
+padding: 7px 0px;
+font-weight: 200;
+font-size: 16px;
+color: #ABA;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+position: relative;
+padding-left: 15px;
+}/* Blog johanes djogzs.blogspot.com */
+ul.dark_menu:after {
+content: "";
+clear: both;
+display: block;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+height: 0;}
+ul.dark_menu li {
+float: left;
+position: relative;
+z-index:40;}
+/* Blog johanes djogzs.blogspot.com */
+ul.dark_menu li a, ul.dark_menu li a:link {
+color: #EBE452;
+text-decoration: none;
+display: block;
+padding: 8px 15px;
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+-ms-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}/* Blog johanes djogzs.blogspot.com */
+ul.dark_menu li a:hover {
+color: #fafafa;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}/* Blog johanes djogzs.blogspot.com */
+ul.dark_menu li a.selected {
+text-transform: uppercase;
+margin-left: 10px;
+margin-right: 5px;
+}
+ul.dark_menu li a.selected, ul.dark_menu li a:active {
+color: #fafafa;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;}
+ul.dark_menu li ul {
+display: none;
+}/* Blog johanes djogzs.blogspot.com */
+ul.dark_menu li ul:before {
+content: " ";
+position: absolute;
+display: block;
+z-index: 1500;
+left: 0;
+top: -10px;
+height: 10px;
+width: 100%;}
+ul.dark_menu li ul {-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;top:55px;list-style:none;}
+ul.dark_menu li:hover ul {
+position: absolute;
+display: block;
+z-index: 1000;
+box-shadow: inset 0 4px 3px rgba(0, 0, 0, 0.3), 0 1px 0 #ddd,0 5px 10px rgba(0, 0, 0, 0.2);
+left: 0;border-radius: 0px 0px 5px 5px;
+top: 39px;
+padding: 5px 0;
+list-style: none;
+background: #fafafa;
+}/* Blog johanes djogzs.blogspot.com */
+ul.dark_menu li ul li {
+float: none;
+margin:0px;}
+ul.dark_menu li ul li:first-child {
+margin:0px;
+border-top: 0 none;}
+ul.dark_menu li ul li:last-child {
+border-bottom: 0 none;
+}/* Blog johanes djogzs.blogspot.com */
+ul.dark_menu [data-role="dropdown"] > a::before {
+position: absolute;
+content: "^";
+display: block;
+font-size: 15px;
+left: 100%;
+margin-left: -10px;
+top: 10px;
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+ul.dark_menu li ul li a, ul.dark_menu li ul li a:link {
+color: #222;
+display: block;
+background: transparent none;
+padding: 10px 25px 10px 25px;
+white-space: nowrap;}
+ul.dark_menu li ul li a:hover {
+background:#B10707;-moz-transition: all 0.1s ease-in-out;color:#fff;
+-webkit-transition: all 0.1s ease-in-out;
+}/* Blog johanes djogzs.blogspot.com */
+
